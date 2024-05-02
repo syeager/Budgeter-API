@@ -1,0 +1,6 @@
+[submodule "Source/Settings"]
+	path = Source/Settings
+	url = https://github.com/syeager/settings-editor_config.git
+[submodule "Source/Common"]
+	path = Source/Common
+	url = https://github.com/syeager/Common-DotNet.git
