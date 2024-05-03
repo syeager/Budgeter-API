@@ -10,13 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Settings\.editorconfig = Settings\.editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Core.Test", "Budgeter.Core.Test\Budgeter.Core.Test.csproj", "{470619B4-DD1D-4873-86BD-9A1473726089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgeter.Core.Test", "Budgeter.Core.Test\Budgeter.Core.Test.csproj", "{470619B4-DD1D-4873-86BD-9A1473726089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Data", "Budgeter.Data\Budgeter.Data.csproj", "{03217B0C-C9BF-41F3-A317-C1A33067BC1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgeter.Data", "Budgeter.Data\Budgeter.Data.csproj", "{03217B0C-C9BF-41F3-A317-C1A33067BC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Api", "Budgeter.Api\Budgeter.Api.csproj", "{F46B8047-28ED-472B-95BC-338B527A21AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgeter.Api", "Budgeter.Api\Budgeter.Api.csproj", "{F46B8047-28ED-472B-95BC-338B527A21AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Api.Test", "Budgeter.Api.Test\Budgeter.Api.Test.csproj", "{AE037D6A-6D57-400A-AA13-E16F481F032B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgeter.Api.Test", "Budgeter.Api.Test\Budgeter.Api.Test.csproj", "{AE037D6A-6D57-400A-AA13-E16F481F032B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Budgeter", "Budgeter", "{A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{743FB3E6-1D92-4069-9054-E15AE2DEA66F} = {A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}
+		{470619B4-DD1D-4873-86BD-9A1473726089} = {A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}
+		{03217B0C-C9BF-41F3-A317-C1A33067BC1A} = {A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}
+		{F46B8047-28ED-472B-95BC-338B527A21AD} = {A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}
+		{AE037D6A-6D57-400A-AA13-E16F481F032B} = {A89EF13E-91A4-458B-BE77-EABA1CCDC1C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81713BE5-6ECB-4D0C-912F-1C55027543A7}
